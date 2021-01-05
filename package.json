@@ -1,0 +1,48 @@
+{
+  "name": "electron-app-template",
+  "version": "1.0.0",
+  "description": "A template for an electron app using typescript, react, SCSS, and webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && electron dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galactic-Cat/electron-app-template.git"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "template",
+    "webpack",
+    "typescript",
+    "scss"
+  ],
+  "author": "Galactic-Cat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Galactic-Cat/electron-app-template/issues"
+  },
+  "homepage": "https://github.com/Galactic-Cat/electron-app-template#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "css-loader": "^5.0.1",
+    "electron": "^11.1.1",
+    "html-webpack-plugin": "^4.5.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.13",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "electron-store": "^6.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        "strict": true,
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "esModuleInterop": true,
+        "outDir": "./build"
+    }
+}
